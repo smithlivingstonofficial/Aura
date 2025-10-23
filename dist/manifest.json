@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Aura AI Assistant",
+  "version": "0.1.0",
+  "description": "An on-device AI assistant to control your browser.",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "search"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "vite.svg",
+      "48": "vite.svg",
+      "128": "vite.svg"
+    }
+  },
+  "icons": {
+    "16": "vite.svg",
+    "48": "vite.svg",
+    "128": "vite.svg"
+  }
+}
